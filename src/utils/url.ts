@@ -1,0 +1,2 @@
+export const stripTrailingSlash = pathname => pathname !== '/' ? pathname?.replace(/\/+$/, '') : pathname
+export const absoluteToRelativeUrl = url => stripTrailingSlash(url?.replace(/^.*\/\/[^/]+/, ''))

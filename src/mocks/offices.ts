@@ -1,0 +1,1 @@
+export const offices = ["All Office Locations", "Tampa, Florida", "Phoenix, Arizona", "Boston, Chicago"]
